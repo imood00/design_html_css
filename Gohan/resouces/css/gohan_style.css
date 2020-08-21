@@ -1,0 +1,377 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+
+/*-------------------------------*/
+/*Basic SETUP*/
+/*-------------------------------*/
+
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;}
+
+
+html,
+body{
+    background-color:#fff;
+    color:#9a9a9a;
+    font-family:'Comfortaa','Arial','sans-serif';
+    font-weight: 300;
+    font-size:20px;
+    text-rendering:optimizeLegibility;
+}
+
+p{
+    line-height: 30px; 
+}
+
+
+/*-------------------------------*/
+    /*REUSEABLE COMPHONENTS*/
+/*-------------------------------*/
+
+
+.introduce{
+    max-width:1000px;
+    margin: 0px auto 0px auto;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+
+section{
+    padding:10px 0;
+    
+}
+
+.box{
+    padding: 33px;
+    
+}
+
+
+
+/*-------------LINKS------------------*/
+
+a:link,
+a:visited{
+    color:#f8a5c2;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #f8a5c2;
+    -webkit-transition:border-bottom 0.2s,color 0.2s;
+    -o-transition:border-bottom 0.2s,color 0.2s;
+    transition:border-bottom 0.2s,color 0.2s; 
+}
+
+a:hover,
+a:active{
+    color:#555;
+    border-bottom: 1px solid transparent;
+}
+
+
+.small-title-logo:link,
+.small-title-logo:visited{
+    color:#ffffff;
+    text-decoration: none;
+    padding-bottom: 0px;
+    border-bottom: 0px solid #ffffff;
+    -webkit-transition:border-bottom 0.2s,color 0.2s;
+    -o-transition:border-bottom 0.2s,color 0.2s;
+    transition:border-bottom 0.2s,color 0.2s; 
+}
+
+
+.small-title-logo:hover,
+.small-title-logo:active{
+    color:#ffffff;
+    border-bottom: 0px solid transparent;
+}
+
+/*-------------------------------*/
+    /*Title*/
+/*-------------------------------*/
+
+.page-top{
+    margin: 0px;
+    padding-left: 160px;
+    padding-top:50px;
+}
+
+.page-top .titlelogo{
+    
+    overflow: hidden;
+    width: 200px;
+    height: 50px;
+}
+
+/*-------------------------------*/
+    /*header*/
+/*-------------------------------*/
+
+
+
+
+
+/*-------------------------------*/
+    /*NAV*/
+/*-------------------------------*/
+
+
+.dropdownmenu{
+    max-width:1000px;
+    margin: 0px auto 0px auto;
+    padding: 0px 0px;
+    text-align: center;
+    padding-top:40px;
+    margin-bottom: 50px;
+}
+
+
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+}
+.dropdownmenu ul {
+	
+	list-style: none;
+	width: 100%;
+}
+.dropdownmenu li {
+	float: left;
+	position: relative;
+	width:auto;
+    
+}
+.dropdownmenu a {
+	color: #030303;
+	display: block;
+	font: bold 15px/20px Comfortaa;
+    border-bottom: none;
+	padding: 10px 50px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+    
+}
+.dropdownmenu li:hover a {
+	background: #f0f0f0;
+}
+#submenu {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 40px;
+	visibility: hidden;
+	z-index: 1;
+}
+li:hover ul#submenu {
+	opacity: 1;
+	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+	visibility: visible;
+}
+#submenu li {
+	float: none;
+	width: 100%;
+}
+#submenu a:hover {
+	background: #e3a4dc;
+}
+#submenu a {
+	background-color:#f0f0f0;
+}
+
+
+
+
+
+
+/*-------------------------------*/
+    /*section*/
+/*-------------------------------*/
+
+
+.container1289 h1{
+     display: block;
+     font-size:130%;
+    padding-top: 40px;
+    color: #b3b1e3;
+}
+
+.container1289 h2{
+    padding-top: 10px;
+    font-size: 15px;
+    color: #6c6c6c;
+    
+}
+
+.row0 img{
+    transform: translate(70px);
+    padding-top: 20px;
+}
+
+
+
+/*-------------Gohan------------------*/
+
+
+.sample {
+	width:			320px;
+	height:			320px;
+	overflow:		hidden;
+	position:		relative;
+    border-radius: 50%;
+}
+.sample .boxrow {
+	font-size:		10%;
+	text-align: 	center;
+	color:			#fff;
+    
+}
+.sample .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;
+	top:			0;
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.6s ease;
+	transition:		all 0.6s ease;
+    
+}
+.sample:hover .mask {
+	opacity:1;	/* マスクを表示する */
+	padding-top:0px;	/* ホバーで下にずらす */
+}
+
+.sample{
+    box-shadow: 0 0 10px grey;
+}
+
+
+
+/*-------------------------------*/
+    /*ICONS*/
+/*-------------------------------*/
+
+.icon-big{
+    font-size:300%;
+    display: block;
+    color: #f8a5c2;
+    margin-bottom: 10px;
+    
+}
+
+.icon-small{
+    
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #f8a5c2;
+    font-size: 150%;
+    margin-right: 10px;
+    
+    /*secrets to aligh text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+
+/*-------------------------------*/
+            /*FOOTER*/
+/*-------------------------------*/
+
+.row{
+    max-width:1200px;
+    margin: 0 auto 0 auto;   
+}
+
+footer{
+    background-color: #ffe1c4;
+    padding:30px;
+    font-size: 80%;
+    
+}
+
+.footer-nav{
+    list-style: none;
+    float:left;
+}
+
+.social-links{
+    list-style: none;
+    float:right;
+}
+
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+.footer-nav li:last-child,
+.social-links li:last-child{
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border:0;
+    color:#adadad;
+    -webkit-transition:color 0.2s;
+    -o-transition:color 0.2s;
+    transition:color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color:#ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited{
+    font-size:160%;    
+}
+
+#ion-social-youtube,
+#ion-social-twitter,
+#ion-social-instagram{
+    -webkit-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+#ion-social-youtube:hover{
+    color: #cd201f;
+}
+
+
+#ion-social-twitter:hover{
+    color: #55acee;
+}
+
+#ion-social-instagram:hover{
+    color: #e4405f;
+}
+
+
+
+footer p {
+    color:#888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 10px;
+}
+
